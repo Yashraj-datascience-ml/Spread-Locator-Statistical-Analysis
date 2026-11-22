@@ -6,15 +6,15 @@
   Exploring E-Commerce Transaction Behavior Through Probability Distributions, Statistical Modeling & Data Visualization.
 </p>
 
-<p align="center">
-  ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-  ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
-  ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
-  ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
-  ![SciPy](https://img.shields.io/badge/SciPy-Statistical%20Analysis-8CAAE6)
-  ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
-  ![Status](https://img.shields.io/badge/Project-Completed-success)
-</p>
+\<p align="center">
+&#x20; \<img src="[https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)" alt="Python"/>
+&#x20; \<img src="[https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter\&logoColor=white)" alt="Jupyter"/>
+&#x20; \<img src="[https://img.shields.io/badge/Pandas-Data_Analysis-150458?logo=pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?logo=pandas)" alt="Pandas"/>
+&#x20; \<img src="[https://img.shields.io/badge/NumPy-Numerical_Computing-013243?logo=numpy](https://img.shields.io/badge/NumPy-Numerical_Computing-013243?logo=numpy)" alt="NumPy"/>
+&#x20; \<img src="[https://img.shields.io/badge/SciPy-Statistical_Analysis-8CAAE6](https://img.shields.io/badge/SciPy-Statistical_Analysis-8CAAE6)" alt="SciPy"/>
+&#x20; \<img src="[https://img.shields.io/badge/Matplotlib-Visualization-11557C](https://img.shields.io/badge/Matplotlib-Visualization-11557C)" alt="Matplotlib"/>
+&#x20; \<img src="[https://img.shields.io/badge/Project-Completed-success](https://img.shields.io/badge/Project-Completed-success)" alt="Completed"/>
+\</p>
 
 ---
 
