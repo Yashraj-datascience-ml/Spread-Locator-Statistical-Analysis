@@ -6,21 +6,19 @@
   Exploring E-Commerce Transaction Behavior Through Probability Distributions, Statistical Modeling and Data Visualization.
 </p>
 
-<p align="center">
-  ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-  ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
-  ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
-  ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
-  ![SciPy](https://img.shields.io/badge/SciPy-Statistical%20Analysis-8CAAE6)
-  ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
-  ![Status](https://img.shields.io/badge/Project-Completed-success)
-</p>
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
+![SciPy](https://img.shields.io/badge/SciPy-Statistical%20Analysis-8CAAE6)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
+![Project](https://img.shields.io/badge/Project-Completed-success)
 
 ---
 
 ## 📌 1. Project Overview
 
-**Spread Locator** is a Python-based statistical analysis project developed to explore and understand customer transaction behavior in an e-commerce environment.
+**Spread Locator** is an advanced Python-based statistical analysis project developed to explore and understand customer transaction behavior in an e-commerce environment.
 
 The project applies probability distributions, descriptive statistics, statistical transformations, normality testing, probability calculations and mathematical modeling to analyze transaction data.
 
@@ -88,7 +86,7 @@ The project follows a structured statistical analysis workflow.
 
 - Binary encoding of transaction status.
 - Calculation of success and failure probabilities.
-- Bernoulli PMF.
+- Bernoulli Probability Mass Function (PMF).
 - Binomial modeling of weekly transaction counts.
 
 ### Task 2 – Poisson Distribution
@@ -178,87 +176,127 @@ The fitted statistical models were compared using Akaike Information Criterion (
 | Normal | 3968.57 | 2 |
 | Power Law (Pareto) | 4083.34 | 3 |
 
-**Result:** The Log-Normal distribution achieved the lowest AIC among the three fitted models and was identified as the relatively preferred model.
+<details>
+<summary><b>View Model Selection Result</b></summary>
 
-*Note: AIC provides relative model comparison. Additional goodness-of-fit validation and tail analysis are required before making a definitive distributional conclusion.*
+The Log-Normal distribution achieved the lowest AIC among the three fitted models and was identified as the relatively preferred model.
+
+AIC provides relative model comparison. Additional goodness-of-fit validation and tail analysis are required before making a definitive distributional conclusion.
+
+</details>
 
 ## 🖼️ 7. Statistical Visualization Gallery
 
 All visualizations below were captured from the Jupyter Notebook analysis and uploaded as separate PNG files.
 
+The gallery uses a two-column layout for a clean and compact presentation.
+
 ### 7.1 Transaction Analysis
 
-**Transaction Amount Distribution**
-
-![Transaction Amount Distribution](./Distribution%20of%20Transaction%20Amounts.png)
-
-**Transaction Amount Boxplot**
-
-![Transaction Boxplot](./Boxplot%20of%20Transaction%20Amounts.png)
+<table>
+<tr>
+<td width="50%" align="center">
+<b>Transaction Amount Distribution</b><br><br>
+<img src="./Distribution%20of%20Transaction%20Amounts.png" width="100%" alt="Transaction Amount Distribution"/>
+</td>
+<td width="50%" align="center">
+<b>Transaction Amount Boxplot</b><br><br>
+<img src="./Boxplot%20of%20Transaction%20Amounts.png" width="100%" alt="Transaction Amount Boxplot"/>
+</td>
+</tr>
+</table>
 
 ### 7.2 Discrete Probability Distributions
 
-**Bernoulli Distribution**
-
-![Bernoulli Distribution](./Bernoulli%20Distribution%20of%20Transaction%20Status.png)
-
-**Binomial Distribution**
-
-![Binomial Distribution](./Binomial%20Distribution%20of%20Weekly%20Transaction%20Counts.png)
-
-**Poisson Distribution**
-
-![Poisson Distribution](./Poisson%20Distribution%20of%20Daily%20Transactions.png)
-
-**Actual vs Expected Poisson Distribution**
-
-![Actual vs Expected Poisson](./Actual%20vs%20Expected%20Poisson%20Distribution.png)
+<table>
+<tr>
+<td width="50%" align="center">
+<b>Bernoulli Distribution</b><br><br>
+<img src="./Bernoulli%20Distribution%20of%20Transaction%20Status.png" width="100%" alt="Bernoulli Distribution"/>
+</td>
+<td width="50%" align="center">
+<b>Binomial Distribution</b><br><br>
+<img src="./Binomial%20Distribution%20of%20Weekly%20Transaction%20Counts.png" width="100%" alt="Binomial Distribution"/>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<b>Poisson Distribution</b><br><br>
+<img src="./Poisson%20Distribution%20of%20Daily%20Transactions.png" width="100%" alt="Poisson Distribution"/>
+</td>
+<td width="50%" align="center">
+<b>Actual vs Expected Poisson</b><br><br>
+<img src="./Actual%20vs%20Expected%20Poisson%20Distribution.png" width="100%" alt="Actual vs Expected Poisson Distribution"/>
+</td>
+</tr>
+</table>
 
 ### 7.3 Continuous Distribution Fitting
 
-**Log-Normal Distribution**
-
-![Log Normal Fit](./Log-Normal%20Distribution%20Fit.png)
-
-**Power Law Distribution**
-
-![Power Law Fit](./Power%20Law%20Distribution%20Fit.png)
-
-**Distribution Comparison**
-
-![Distribution Comparison](./Comparison%20of%20Statistical%20Distributions.png)
+<table>
+<tr>
+<td width="50%" align="center">
+<b>Log-Normal Distribution</b><br><br>
+<img src="./Log-Normal%20Distribution%20Fit.png" width="100%" alt="Log-Normal Distribution"/>
+</td>
+<td width="50%" align="center">
+<b>Power Law Distribution</b><br><br>
+<img src="./Power%20Law%20Distribution%20Fit.png" width="100%" alt="Power Law Distribution"/>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<b>Comparison of Statistical Distributions</b><br><br>
+<img src="./Comparison%20of%20Statistical%20Distributions.png" width="75%" alt="Distribution Comparison"/>
+</td>
+</tr>
+</table>
 
 ### 7.4 Normality and Transformation Analysis
 
-**Original Q-Q Plot**
-
-![Original QQ Plot](./Q-Q%20Plot%20of%20Transaction%20Amounts.png)
-
-**Log Transformation Q-Q Plot**
-
-![Log Transformation](./Q-Q%20Plot%20after%20Log%20Transformation.png)
-
-**Box-Cox Transformation Comparison**
-
-![Box Cox Transformation](./Before%20and%20After%20Box-Cox%20Transformation.png)
-
-**Box-Cox Q-Q Plot**
-
-![Box Cox QQ Plot](./Q-Q%20Plot%20After%20Box-Cox%20Transformation.png)
+<table>
+<tr>
+<td width="50%" align="center">
+<b>Original Q-Q Plot</b><br><br>
+<img src="./Q-Q%20Plot%20of%20Transaction%20Amounts.png" width="100%" alt="Original Q-Q Plot"/>
+</td>
+<td width="50%" align="center">
+<b>Log Transformation Q-Q Plot</b><br><br>
+<img src="./Q-Q%20Plot%20after%20Log%20Transformation.png" width="100%" alt="Log Transformation Q-Q Plot"/>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<b>Box-Cox Transformation</b><br><br>
+<img src="./Before%20and%20After%20Box-Cox%20Transformation.png" width="100%" alt="Box-Cox Transformation"/>
+</td>
+<td width="50%" align="center">
+<b>Box-Cox Q-Q Plot</b><br><br>
+<img src="./Q-Q%20Plot%20After%20Box-Cox%20Transformation.png" width="100%" alt="Box-Cox Q-Q Plot"/>
+</td>
+</tr>
+</table>
 
 ### 7.5 Probability Analysis
 
-**Probability of Transactions Above ₹5,000**
-
-![Transaction Probability](./Probability%20of%20Transactions%20Above%20%EF%B9%965000.png)
-
-**Probability Density Function**
-
-![PDF](./Probability%20Density%20Function%20of%20Transaction%20Amounts.png)
-
-**Cumulative Distribution Function**
-
-![CDF](./Cumulative%20Distribution%20Function%20of%20Transaction%20Amounts.png)
+<table>
+<tr>
+<td width="50%" align="center">
+<b>Probability Above ₹5,000</b><br><br>
+<img src="./Probability%20of%20Transactions%20Above%20%E2%82%B95000.png" width="100%" alt="Probability Above 5000"/>
+</td>
+<td width="50%" align="center">
+<b>Probability Density Function (PDF)</b><br><br>
+<img src="./Probability%20Density%20Function%20of%20Transaction%20Amounts.png" width="100%" alt="Probability Density Function"/>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<b>Cumulative Distribution Function (CDF)</b><br><br>
+<img src="./Cumulative%20Distribution%20Function%20of%20Transaction%20Amounts.png" width="75%" alt="Cumulative Distribution Function"/>
+</td>
+</tr>
+</table>
 
 ## 📁 8. Repository Structure
 
@@ -266,7 +304,6 @@ All visualizations below were captured from the Jupyter Notebook analysis and up
 Spread-Locator-Statistical-Analysis/
 │
 ├── Spread_Locator_Analysis.ipynb
-│
 ├── spread_locator_dataset.xlsx
 │
 ├── Actual vs Expected Poisson Distribution.png
@@ -352,10 +389,10 @@ Potential improvements include:
 
 **Yashraj Datascience ML**
 
-GitHub Profile:  
+**GitHub Profile:**  
 https://github.com/Yashraj-datascience-ml
 
-Project Repository:  
+**Project Repository:**  
 https://github.com/Yashraj-datascience-ml/Spread-Locator-Statistical-Analysis
 
 ## 📜 13. License
